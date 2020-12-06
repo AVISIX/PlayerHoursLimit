@@ -1,0 +1,12 @@
+{
+"title" : "Player Hours Limit",
+"type" : "ServerContent",
+"tags" : "fun",
+"description" : "A simple Addon to keep new Players out of your Server.",
+"ignore" :
+[
+"*.psd",
+"*.vcproj",
+"*.svn"
+]
+}
