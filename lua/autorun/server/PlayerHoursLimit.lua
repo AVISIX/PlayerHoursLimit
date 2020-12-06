@@ -86,7 +86,7 @@ local function verifyPlayer(player)
 
         local function drop()
             if IsValid(player) == false then return end 
-            player:Kick("\nYou do not have enough playtime (min: " .. limit.. ") in Garry's Mod to play on this Server.\n\nIf you are certain to have enough hours, try to unprivate your profile")
+            player:Kick("\nYou do not have enough playtime (min: " .. limit.. ") in Garry's Mod to play on this Server.\n\nIf you are certain to have enough hours, try to unprivate your profile.\nAfter verification you can set it back to Private :)")
         end 
 
         if apiResponsePrivateProfile(body) == true then 
